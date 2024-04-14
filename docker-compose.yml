@@ -15,7 +15,6 @@ services:
     volumes:
       - ./Streamlit_Frontend:/app/backend
 
-
   backend:
     build:
       context: .
